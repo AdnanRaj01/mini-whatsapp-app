@@ -22,9 +22,12 @@
                     <button type="submit">edit</button>
                 </form>
                 <br>
-                <form action="/chats/<%= chat._id %>?_method=DELETE" method="POST">
-                    <button type="submit">delete</button>
-                </form>
+                <form action="/chats/<%= chat._id %>?_method=DELETE"
+      method="POST"
+      class="delete-form">
+
+    <button type="submit">delete</button>
+</form>
               </div>
               <p>Received by: <i><%= chat.to %></i></p>
               <hr>
@@ -33,5 +36,7 @@
             </div>
         <% } %>
     </div>
+
+    <script src="/app.js"></script>
 </body>
 </html>
