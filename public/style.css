@@ -1,0 +1,14 @@
+.chat{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+}
+.message{
+    background-color: rgb(114, 114, 224);
+    color: white;
+    padding: 5px 15px;
+}
+body{
+    margin: 20px;
+}
